@@ -1,15 +1,34 @@
 {
+  "name": "dataV2",
+  "version": "1.0.0",
+  "description": "Data View + Vue 2.7",
+  "main": "lib/index.js",
+  "scripts": {
+    "build": "node build/index.js",
+    "deploy": "node deploy/index.js",
+    "prepublish": "npm run build",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/liushuai97/dataV2.git"
+  },
+  "keywords": [
+    "vue",
+    "chart",
+    "dataview",
+    "datavisual"
+  ],
   "author": "liushuai",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/liushuai97/dataV2/issues"
   },
-  "bundleDependencies": false,
+  "homepage": "https://github.com/liushuai97/dataV2#readme",
   "dependencies": {
     "@babel/runtime": "^7.5.5",
     "@jiaminghi/charts": "*"
   },
-  "deprecated": false,
-  "description": "Data View + Vue 2.7",
   "devDependencies": {
     "@babel/cli": "^7.4.4",
     "@babel/core": "^7.4.5",
@@ -23,26 +42,5 @@
     "rollup-plugin-terser": "^5.1.1",
     "rollup-plugin-vue": "^5.0.1",
     "vue-template-compiler": "^2.7.14"
-  },
-  "homepage": "https://github.com/liushuai97/dataV2#readme",
-  "keywords": [
-    "vue",
-    "chart",
-    "dataview",
-    "datavisual"
-  ],
-  "license": "MIT",
-  "main": "lib/index.js",
-  "name": "dataV2",
-  "repository": {
-    "type": "git",
-    "url": "git+https://github.com/liushuai97/dataV2.git"
-  },
-  "scripts": {
-    "build": "node build/index.js",
-    "deploy": "node deploy/index.js",
-    "prepublish": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "version": "1.1.1"
+  }
 }
