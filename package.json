@@ -1,5 +1,5 @@
 {
-  "name": "dataV2",
+  "name": "data-view-v2",
   "version": "1.0.0",
   "description": "Data View + Vue 2.7",
   "main": "lib/index.js",
